@@ -30,6 +30,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: /public/  # Katalog z plikami po buildzie
+          local-dir: public/  # Katalog z plikami po buildzie
           server-dir: /taxigorakalwaria.pl/  # Dostosuj do struktury Twojego hostingu
           passive: true
